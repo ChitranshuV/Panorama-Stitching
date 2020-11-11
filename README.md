@@ -29,4 +29,5 @@ the most aesthetically pleasing panorama.)
 
 
 There were some problems in the stiching process for  this project using custom functions for finding homography and RANSAC algorithm  and hence I tried the same using in-built cv2 methods apart from the functions that I had written by myself. You can find the proper panoramic image by running `stitch.py`
-One can run stitch.py to find the panormaic images of pair of images using the built in cv2 methods. 
+
+One can run `stitch.py` to find the panormaic images of pair of images using the built in cv2 methods. 
