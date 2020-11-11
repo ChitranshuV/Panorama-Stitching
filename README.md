@@ -25,8 +25,8 @@ panoramic stitched image to compare your result with. Report the all visualizati
 for n=2 case, along with two homography matrices with respect to middle image.(Hint: You should
 implement this function on your own. Take the middle image as reference and find the homography
 transformations with respect to middle image, that doesn’t need further transformations and also produce
-the most aesthetically pleasing panorama.)  
+the most aesthetically pleasing panorama.) 
 
 
 There were some problems in the stiching process for  this project using custom functions for finding homography and RANSAC algorithm  and hence I tried the same using in-built cv2 methods apart from the functions that I had written by myself. You can find the proper panoramic image by running `stitch.py`
-One can run stitch.py to find the panormaic images of 
+One can run stitch.py to find the panormaic images of pair of images using the built in cv2 methods. 
